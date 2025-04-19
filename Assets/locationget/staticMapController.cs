@@ -4,7 +4,7 @@ using UnityEngine.Networking;
 
 public class MapDisplay : MonoBehaviour
 {
-    private const string googleMapsApiKey = "AIzaSyBWL2_w5vkL3OCYPB9wZi6ttFVDO1rX3D4"; // APIキー（本番では.envなどで管理すべき）
+    private const string googleMapsApiKey = ""; // APIキー（本番では.envなどで管理すべき）
 
     [Header("手動で座標を設定（GPSが無効の場合に使用）")]
     public float manualLatitude = 43.1896f;  // 小樽商科大学の緯度
